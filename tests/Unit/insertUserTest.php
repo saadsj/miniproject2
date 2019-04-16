@@ -18,7 +18,7 @@ class insertUserTest extends TestCase
     {
         $user= new User();
         $user->name = 'J.J.Johnson';
-        $user->email = 'xyz@abc.com';
+        $user->email = 'bdggh@zzd.com';
         $user->password = '000000000';
         $this->assertTrue($user->save());
 //        $this->assertTrue(true);
